@@ -1,5 +1,5 @@
 import * as animationData from "@components/Lotties/FindDonors.json"
-import Lottie from "react-lottie"
+// import Lottie from "react-lottie"
 
 export default function FindDonorsLottie() {
   const defaultOptions = {
@@ -12,7 +12,8 @@ export default function FindDonorsLottie() {
   }
   return (
     <div className="container mx-auto">
-      <Lottie options={defaultOptions} height={350} width={350} />
+      <p>Loading...</p>
+      {/* <Lottie options={defaultOptions} height={350} width={350} /> */}
     </div>
   )
 }

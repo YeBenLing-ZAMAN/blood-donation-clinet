@@ -1,5 +1,5 @@
 import * as animationData from "@components/Lotties/RequestBlood.json"
-import Lottie from "react-lottie"
+// import Lottie from "react-lottie"
 
 export default function RequestBloodLottie() {
   const defaultOptions = {
@@ -12,7 +12,8 @@ export default function RequestBloodLottie() {
   }
   return (
     <div className="container mx-auto">
-      <Lottie options={defaultOptions} height={200} width={200} />
+      <p>Loading...</p>
+      {/* <Lottie options={defaultOptions} height={200} width={200} /> */}
     </div>
   )
 }

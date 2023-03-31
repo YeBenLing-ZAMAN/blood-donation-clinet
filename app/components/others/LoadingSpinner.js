@@ -1,5 +1,5 @@
 import * as animationData from "@components/Lotties/LoadingSpinner.json"
-import Lottie from "react-lottie"
+// import Lottie from "react-lottie"
 
 export default function LoadingSpinner() {
   const defaultOptions = {
@@ -12,7 +12,8 @@ export default function LoadingSpinner() {
   }
   return (
     <div className="container mx-auto">
-      <Lottie options={defaultOptions} height={300} width={300} />
+      <p>Loading...s</p>
+      {/* <Lottie options={defaultOptions} height={300} width={300} /> */}
     </div>
   )
 }
